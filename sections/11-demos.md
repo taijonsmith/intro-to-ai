@@ -4,7 +4,7 @@
 
 ---
 
-> **Time to see it in action.** These demos are designed to show real AI-assisted workflows, not synthetic toy examples.
+> **Time to see it in action.** These exercises walk through real AI-assisted workflows you can try yourself.
 
 ---
 
@@ -16,7 +16,7 @@
 - [Demo 4: CLI Power Tools](#demo-4-cli-power-tools)
 - [Demo 5: UI Prototyping with v0](#demo-5-ui-prototyping-with-v0)
 - [Running the Demos](#running-the-demos)
-- [After the Demos](#after-the-demos)
+- [Bonus: Test AI's Limits](#bonus-test-ais-limits)
 
 ---
 
@@ -216,32 +216,17 @@ Create a project dashboard with:
 
 ## Running the Demos
 
-### Demo Prep Checklist
-
-Before running demos, verify everything works:
-
-- [ ] VS Code open with Copilot extension active
-- [ ] MCP servers running (Context7, Sequential Thinking, GitHub)
-- [ ] Claude Code installed and authenticated (`claude --version`)
-- [ ] Codex CLI installed and authenticated (`codex --version`)
-- [ ] `demos/` directory — `npm install` done, `npm test` passes
-- [ ] Font size increased (⌘+ or Ctrl+ several times)
-- [ ] Terminal font size increased too
-- [ ] API keys set as environment variables (NOT hardcoded)
-- [ ] v0.dev account logged in on a separate browser tab
-- [ ] Backup screenshots ready for each demo (in case of network issues)
-- [ ] Wi-Fi tested — AI tools need internet
-
-### Tips for Running Demos
-
-1. **Narrate while AI works** — Don't sit in silence while code generates. Talk through what it's doing: "Notice it's creating the validation schema first..."
-2. **Show right AND wrong** — Demo a bad prompt, then a good one. The contrast is more memorable than perfection.
-3. **Have fallback plans** — If a demo fails, switch to screenshots or a pre-recorded version. Tech demos fail — it happens.
-4. **Budget time wisely** — Each demo should take 5-8 minutes including discussion.
-5. **Start with Demo 1** — It's the safest and most impressive. Build confidence before riskier demos.
-6. **Save CLI demos for technical audiences** — Non-devs won't appreciate terminal workflows as much.
-
 ### Prerequisites
+
+- [ ] VS Code with Copilot extension active
+- [ ] MCP servers configured (Context7, Sequential Thinking, GitHub)
+- [ ] Claude Code installed (`claude --version`)
+- [ ] Codex CLI installed (`codex --version`)
+- [ ] `demos/` directory — `npm install` done, `npm test` passes
+- [ ] API keys set as environment variables (NOT hardcoded)
+- [ ] v0.dev account ready
+
+### Quick Setup
 
 ```bash
 # Node.js 20+
@@ -257,7 +242,7 @@ claude --version
 codex --version
 ```
 
-### Quick Start
+### Quick Setup
 
 ```bash
 cd demos/
@@ -281,40 +266,26 @@ demos/
     └── bookmarks.test.ts  # Vitest integration tests
 ```
 
-> 💡 **Tip**: Have the demos pre-loaded and dependencies installed. Nothing kills momentum like watching `npm install`.
+> 💡 **Tip**: Install dependencies ahead of time so you can jump straight into the exercises.
 
 ---
 
-## After the Demos
+## Bonus: Test AI's Limits
 
-### Group Exercise: Everyone Tries AI
+A good way to build intuition is to find tasks AI _can't_ handle well. Try giving it something you think will stump it:
 
-> 💡 **This is the most impactful part.** Get everyone to try AI _right now_.
+- AI handles it → you learned something new
+- AI fails → you now know a real limitation
 
-**Universal prompt (works for any role):**
+Both outcomes are useful.
+
+**General-purpose prompt to try:**
 
 ```
 I'm a [your role] working on [brief project description].
 What are 3 ways AI could save me time this week?
 Be specific to my role and project.
 ```
-
-Have everyone open ChatGPT, Claude, or Gemini on their phone/laptop and try this prompt. Then ask 2-3 people to share what they got.
-
-### Discussion Questions
-
-1. **"Which of these would save you the most time today?"**
-2. **"What's a task from your current sprint that we could try with AI right now?"**
-3. **"What concerns do you have about adopting these tools?"**
-
-### The "Can AI Do This?" Challenge
-
-Invite participants to name a task they think AI _can't_ handle. Try it live. Either:
-
-- AI handles it → impressive demo
-- AI fails → honest discussion about limitations (which builds trust)
-
-Both outcomes build credibility and trust.
 
 ---
 

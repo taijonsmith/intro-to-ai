@@ -269,7 +269,7 @@ For more on security, see [Section 09 — Privacy & Security](./09-privacy-and-s
 
 ## 🧪 Try It Yourself
 
-1. **Check this repo**: Look at the `.vscode/mcp.json` in this project — we have MCPs configured that you can use live during the demo.
+1. **Check this repo**: Look at the `.vscode/mcp.json` in this project — it has MCPs configured that you can try out yourself.
 
 2. **Verify your setup**: In VS Code, open the Command Palette (⌘⇧P) → "MCP: List Servers" → verify servers show as running. Then look for MCP tools appearing in Copilot Chat.
 

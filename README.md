@@ -9,7 +9,7 @@
 
 This repository is a self-contained guide to AI tools, techniques, and workflows for software developers. It covers everything from "What is an LLM?" to running parallel AI agents on your codebase.
 
-**It's also a live demo environment** — the repo itself uses custom instructions, MCP servers, agent templates, and AI-optimized project structure. The medium _is_ the message.
+**It's also a working example** — the repo itself uses custom instructions, MCP servers, agent templates, and AI-optimized project structure. The medium _is_ the message.
 
 **Target audience**: Developers (and some non-devs) at any skill level.
 **Goal**: Educate, demonstrate practical techniques, and help developers evaluate AI tools honestly — including their limitations.
@@ -18,7 +18,7 @@ This repository is a self-contained guide to AI tools, techniques, and workflows
 
 ## 📖 Table of Contents
 
-### Foundations (~15 min)
+### Foundations
 
 | #   | Section                                             | What You'll Learn                                                |
 | --- | --------------------------------------------------- | ---------------------------------------------------------------- |
@@ -26,7 +26,7 @@ This repository is a self-contained guide to AI tools, techniques, and workflows
 | 02  | [Popular AI Tools](sections/02-popular-ai-tools.md) | ChatGPT vs Claude vs Gemini, model rankings, pricing, what's new |
 | 03  | [Prompting Basics](sections/03-prompting-basics.md) | CRAFT framework, 5 techniques, AI tendencies, context rules      |
 
-### Tools & Workflows (~15 min)
+### Tools & Workflows
 
 | #   | Section                                           | What You'll Learn                                                  |
 | --- | ------------------------------------------------- | ------------------------------------------------------------------ |
@@ -34,7 +34,7 @@ This repository is a self-contained guide to AI tools, techniques, and workflows
 | 05  | [MCP Ecosystem](sections/05-mcp-ecosystem.md)     | What MCP is, top MCPs, setup for VS Code & Claude Desktop          |
 | 06  | [Code Editors & CLI](sections/06-code-editors.md) | VS Code + Copilot, Cursor, Claude Code, Codex CLI, parallel agents |
 
-### Applications & Strategy (~15 min)
+### Applications & Strategy
 
 | #   | Section                                                   | What You'll Learn                                      |
 | --- | --------------------------------------------------------- | ------------------------------------------------------ |
@@ -114,40 +114,11 @@ intro-to-ai/
 │   ├── 10-future-of-dev.md
 │   ├── 11-demos.md
 │   └── 12-appendix-apis-and-sdks.md
-├── demos/                             ← Live demo code
+├── demos/                             ← Example demo code
 ├── archive/
 │   └── sections-v1/                   ← Original 15-section drafts (reference)
 └── assets/                            ← Images and media
 ```
-
----
-
-## 🗺️ Suggested Learning Paths
-
-### Full Walkthrough (~1 hour)
-
-| Time      | Sections                          | Style                                          |
-| --------- | --------------------------------- | ---------------------------------------------- |
-| 0:00–0:05 | **01**: AI Fundamentals           | Read — what LLMs are, how they work            |
-| 0:05–0:10 | **02**: Popular AI Tools          | Interactive — compare tools, check leaderboard |
-| 0:10–0:15 | **03**: Prompting Basics          | Hands-on — try the CRAFT framework             |
-| 0:15–0:18 | **04**: Quality Checks            | Read — trust spectrum, spec-driven dev         |
-| 0:18–0:21 | **05**: MCP Ecosystem             | Demo — try Context7 & GitHub MCP               |
-| 0:21–0:26 | **06**: Code Editors & CLI        | Demo — Agent Mode, Copilot shortcuts           |
-| 0:26–0:31 | **07**: Use Cases                 | Discussion — what would help YOUR team?        |
-| 0:31–0:33 | **08**: Creative AI               | Quick tour — v0, image gen, audio              |
-| 0:33–0:36 | **09**: Privacy & Security        | Read — data policies, team guidelines          |
-| 0:36–0:38 | **10**: Future of Dev             | Closing — new skills, action plan              |
-| 0:38–0:50 | **11**: Hands-On Demos (pick 2-3) | Live coding — the wow factor                   |
-| 0:50–1:00 | Q&A + Discussion                  | Open floor                                     |
-
-### Quick Format (30 min)
-
-Focus on: Sections 01, 03, 06, 07 + one Demo + Q&A
-
-### Lightning Talk (15 min)
-
-Focus on: Section 03 (Prompting) + Section 06 (Editors) + Q&A
 
 ---
 

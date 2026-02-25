@@ -166,7 +166,7 @@ Not everything is being disrupted. These fundamentals remain essential:
 - [ ] Provide AI tool licenses for the team (Copilot, Claude, etc.)
 - [ ] Create team-wide custom instructions (`copilot-instructions.md`)
 - [ ] Establish guidelines for AI use on client projects (see [Section 9](./09-privacy-and-security.md))
-- [ ] Run a "brown bag" session sharing AI wins and fails
+- [ ] Share AI wins and fails with the team regularly
 - [ ] Track and share productivity metrics before/after adoption
 
 ### For the Organization
@@ -204,11 +204,11 @@ Not everything is being disrupted. These fundamentals remain essential:
 
 ## 💬 Discussion
 
-Let's talk about it:
+Questions worth thinking about:
 
 1. **What excites you most** about AI-assisted development? What concerns you?
 2. **Where do you see the biggest opportunity** in your current project? What could you hand off to AI today?
-3. **What's your biggest concern** about AI tools? Let's address it honestly.
+3. **What's your biggest concern** about AI tools?
 
 ---
 

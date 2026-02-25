@@ -34,7 +34,7 @@ Integration tests using Vitest + Supertest that demonstrate:
 This API is meant to be **built live** using AI Agent Mode (see [Section 11](../sections/11-demos.md)). The code here serves as:
 
 1. **Reference** — What the AI should roughly generate
-2. **Fallback** — If the live demo hits issues, you can show this
+2. **Fallback** — If something goes wrong, you can reference this
 3. **Starting point** — Use this as a base and extend with AI
 
 ## API Endpoints
