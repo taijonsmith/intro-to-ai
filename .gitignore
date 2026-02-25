@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+
+# Build Outputs
+dist/
+build/
+*.tsbuildinfo
+
+# AI Tool Caches
+.aider*
+.claude/settings.local.json
+
+# Test & Coverage
+coverage/
+*.lcov
+
+# Misc
+*.log
+tmp/
